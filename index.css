@@ -1,0 +1,120 @@
+
+body{
+    background-color: lightgreen;
+    
+    
+}
+.container{
+    border-radius: 5px;
+
+    display:grid;
+    grid-template-columns: 0.95fr 1fr;
+    background-color: white;
+    padding-top: 10%;
+    margin:auto;
+    max-width: 600px;
+    height:400px;   
+}
+.color{
+    display: grid;
+    float: left;
+    grid-template-columns: auto auto auto auto;
+    margin-bottom: 20;
+    
+}
+
+.vari{
+    color: blue;
+    font-size: 20;
+    margin-top: 10;
+    margin-bottom: 25;
+}
+.me,.y,.t{
+height:50px;
+width:50px;
+background: red;
+border-radius: 5px;
+text-align: center;
+margin-right: 10;
+
+}
+.y{
+    background: rgb(45, 98, 197);
+    
+    
+}
+.t{
+    background: black;
+    margin-left: 10;
+    color: wheat;
+}
+.ben{
+    clear: left;
+    font-size: 20;
+    font-weight: 400;
+}
+.spec{
+   clear: left;
+}
+.me,.u:hover,.y:hover,.t:hover{
+    cursor: pointer;
+    border: 5px solid black ;
+}
+ul{
+    
+}
+.u{
+    height:50px;
+    width:50px;
+    background: green;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+
+.photo-frame{
+    background-color: rgb(68, 180, 3);
+    background: radial-gradient(circle, rgb(255, 255, 255), rgb(76, 207, 24), rgb(17, 211, 17));
+    margin-top: -50px;
+    margin-bottom:50px ;
+    position: relative;
+    left: -50px;
+    box-shadow: ;
+    opacity: 1;
+    border-radius: 5px;;
+    box-shadow: 10px 5px 5px  black;
+}
+button{
+    border: none;
+    background-color: indianred;
+    cursor: pointer;
+    padding: 10px;
+    display: inline;
+    letter-spacing: 1.2;
+    color:white;
+    border-radius: 5px;
+    align-content: center;
+}
+button:hover{
+    border: 5px solid black;
+}
+.price{
+    color: red;
+    font-size: 25;
+    
+}
+.heading{
+    font-size: 35;
+    margin-top: -15;
+    margin-bottom: 10;
+}
+.photo{
+    position: absolute;
+    left: -20px;
+    bottom:120;
+    background-size: 100%;
+    background-color: aqua;
+}
+
+
+
